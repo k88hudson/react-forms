@@ -1,7 +1,7 @@
 var React = require('react/addons');
 var ValidationMixin = require('react-validation-mixin');
 var getValidators = require('../../validators');
-var assign = require('react/lib/Object.assign');
+var assign = Object.assign;
 var Field = require('./field.jsx');
 
 var Form = React.createClass({

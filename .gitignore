@@ -1,4 +1,5 @@
 node_modules/
 public/*.bundle.js*
 public/style.css*
-public/tests/mocha*
+public/tests/*.js
+public/tests/*.css

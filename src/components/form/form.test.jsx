@@ -1,7 +1,7 @@
 var should = require('should');
 var React = require('react/addons');
 var TestUtils = React.addons.TestUtils;
-var assign = require('react/lib/Object.assign');
+var assign = Object.assign;
 var Form = require('./form.jsx');
 var sampleData = require('./form.sample-data');
 var schemas = sampleData.map(field => field.schema);
