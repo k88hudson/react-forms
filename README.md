@@ -1,5 +1,7 @@
 # React forms demo
 
+![travis](https://travis-ci.org/k88hudson/react-forms.svg?branch=master)
+
 ## Get started
 
 ```
