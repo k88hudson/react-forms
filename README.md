@@ -7,9 +7,18 @@ npm install
 npm start
 ```
 
-### What does this do?
+## What does this do?
 
 The `<Form />` component allows you to pass a schema of fields, and sets a validation state on the each element as well as the form itself. It uses `Joi` for validation.
+
+## Example Usage
+
+```jsx
+<div className="container">
+  <Form fields={signup} onSubmit={onSubmit} />
+  <Form fields={mailingList} onSubmit={onSubmit} />
+</div>
+```
 
 ## Tests
 
