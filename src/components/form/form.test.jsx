@@ -93,7 +93,7 @@ describe('form', function() {
 
     it('should not show validation immediately after key press', function () {
       TestUtils.Simulate.keyUp(inputEl, {key: 'f'});
-      console.log(inputEl.value);
+      TestUtils.Simulate.change(inputEl, {target: {value: 'f'}});
       should(containerEl.className.match(validClass)).be.equal(null);
       should(containerEl.className.match(invalidClass)).be.equal(null);
     });
